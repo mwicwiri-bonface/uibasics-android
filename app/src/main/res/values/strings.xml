@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ui basics</string>
+    <string name="hello_world">Hello World</string>
+    <string name="say_hello">Say Hello</string>
+</resources>
