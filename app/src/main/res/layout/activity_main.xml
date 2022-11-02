@@ -10,7 +10,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:id="@+id/studentsSpinner"/>
+        android:id="@+id/studentsSpinner"
+        android:entries="@array/students"/>
 
     <ListView
         android:layout_width="match_parent"

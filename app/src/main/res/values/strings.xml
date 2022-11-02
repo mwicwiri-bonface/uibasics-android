@@ -4,4 +4,9 @@
     <string name="say_hello">Say Hello</string>
     <string name="harry_porter">Harry Porter</string>
     <string name="matrix">matrix</string>
+    <string-array name="students">
+        <item>Bonface Mwicwiri</item>
+        <item>Caily Mwicwiri</item>
+        <item>Maureen Mwicwiri</item>
+    </string-array>
 </resources>

@@ -23,22 +23,22 @@ public class MainActivity extends AppCompatActivity {
 
         citiesList = findViewById(R.id.citiesList);
         studentsSpinner = findViewById(R.id.studentsSpinner);
-
-        ArrayList<String> students = new ArrayList<>();
-        students.add("Caily Kendi");
-        students.add("Bonface Mwicwiri");
-        students.add("Maureen Chepkemoi");
-
-        ArrayAdapter<String> studentsAdapter = new ArrayAdapter<>(
-                this, android.R.layout.simple_spinner_dropdown_item, students
-        );
-
-        studentsSpinner.setAdapter(studentsAdapter);
+//
+//        ArrayList<String> students = new ArrayList<>();
+//        students.add("Caily Kendi");
+//        students.add("Bonface Mwicwiri");
+//        students.add("Maureen Chepkemoi");
+//
+//        ArrayAdapter<String> studentsAdapter = new ArrayAdapter<>(
+//                this, android.R.layout.simple_spinner_dropdown_item, students
+//        );
+//
+//        studentsSpinner.setAdapter(studentsAdapter);
 
         studentsSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(MainActivity.this, students.get(i) + " Selected",
+                Toast.makeText(MainActivity.this, studentsSpinner.getSelectedItem().toString() + " Selected",
                         Toast.LENGTH_SHORT).show();
             }
 
